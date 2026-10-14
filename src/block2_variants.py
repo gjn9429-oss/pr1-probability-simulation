@@ -1,6 +1,5 @@
 import random
 
-
 def run_block_2(n=1000000):
     count_a = 0
     count_b = 0
@@ -45,7 +44,6 @@ def run_block_2(n=1000000):
     print(f"P(A or B): stat = {p_aub:.5f}, theor = {t_aub:.5f}, delta = {abs(p_aub - t_aub):.5f}")
     print(f"P(not A): stat = {p_na:.5f}, theor = {t_na:.5f}, delta = {abs(p_na - t_na):.5f}")
     print(f"Перевірка P(not A) == 1 - P(A): {p_na:.5f} vs {1 - p_a:.5f}")
-
 
 if __name__ == "__main__":
     run_block_2()

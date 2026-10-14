@@ -1,0 +1,7 @@
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+# Віртуальне середовище
+.venv/
+venv/
